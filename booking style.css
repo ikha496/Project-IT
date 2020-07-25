@@ -1,0 +1,127 @@
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+        url(../images/golden-gate-bridge-san-francisco-california.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.head
+{
+    color: #fff;
+    margin-top: 100px; 
+}
+.booxing-form
+{
+    max-width: 350px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+    border-radius: 10px;
+}
+.radio-btn
+{
+    margin: 20px 20px 0;
+    text-align: center;
+}
+radio-btn .btn
+{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+.radio-btn label
+{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.booking-form
+{
+    padding: 0 20px 20px;
+}
+.booking-form label
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+.form-control::placeholder
+{
+    color: #fff !important;
+}
+.input-grp
+{
+    width: 151px;
+    display: inline-block;
+}
+.form-control
+{
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button
+{
+    -webkit-appearance:none;
+    margin: 0;
+}
+.select-date::-webkit-calender-picker-indicato
+{
+    background: transparent !important;
+}
+.select
+{
+    color: #fff !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    padding-top: 4px;
+}
+.select option
+{
+    color: #333;
+}
+.ticket
+{
+    width: 100%;
+    padding: 0 !important;
+    font-size: 12px !important;
+    border: 1px solid #ced4da !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    height: 34px;
+}
+.ticket:hover
+{
+    background: #fff !important;
+    color: #000 !important;
+    transition: 0.5s;
+}

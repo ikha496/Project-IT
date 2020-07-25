@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booking form</title>
+        <link rel="stylesheet" href="../bootstrap-3.2.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../bootstrap-3.2.0-dist/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../styles/booking%20style.css">
+    </head>
+    <body>
+        <div class="container">
+            <section class="head text-center">
+                <h1>Book your flight tickets online</h1>
+            </section>
+            <div class="booxing-form">
+                <form>
+                    <div class="radio-btn">
+                        <input type="radio" name="flight" value="round trip" class="btn" checked="checked">
+                        <label>round trip</label>
+                        <input type="radio" name="flight" value="one way" class="btn">
+                        <label>one way</label>
+                    </div>
+                    <div class="booking-form">
+        
+                        <label>flying from</label>
+                        <input type="text" placeholder="city or airport" class="form-control">
+                        <label>flying to</label>
+                        <input type="text" placeholder="city or airport" class="form-control">
+
+                        <div class="input-grp">
+                            <label>Departing</label>
+                            <input type="date" class="form-control select-date">
+                        </div>
+                        <div class="input-grp"> 
+                            <label>Retarting</label>
+                            <input type="date" class="form-control select-date">
+                        </div>
+                        <div class="input-grp">
+                            <label>Adults</label>
+                            <input type="text" placeholder="1" class="form-control" >
+                        </div>
+                        <div class="input-grp">
+                            <label>Childern</label>
+                            <input type="text" placeholder="0" class="form-control">
+                        </div>
+                        <div class="input-grp">
+                            <label>Travel class</label>
+                            <select class="select form-control">
+                              <option value="1">Economy</option>
+                              <option value="2">Business</option>
+                              <option value="3">first class</option>
+                            </select>
+                        </div>
+                        <div class="input-grp">
+                            <button type="button" class="btn btn-primary ticket">Book a ticket</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
